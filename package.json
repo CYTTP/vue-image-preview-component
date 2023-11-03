@@ -1,0 +1,60 @@
+{
+  "name": "cttyp",
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "description": "A vue2.x image preview plugin.",
+  "author": "CYTTP",
+  "keywords": [
+    "vue",
+    "vue2",
+    "preview",
+    "image",
+    "图片预览",
+    "预览"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CYTTP/vue-image-preview-component.git"
+  },
+  "main": "dist/vue-image-preview.umd.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "package": "vue-cli-service build --target lib packages/index.js --name vue-image-preview --dest dist"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "vue": "^2.6.14"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
